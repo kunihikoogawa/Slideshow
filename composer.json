@@ -1,0 +1,38 @@
+{
+    "name": "vanilo/slideshow",
+    "description": "Vanilo Slideshow Module",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["product", "ecommerce", "vanilo", "artkonekt", "laravel"],
+    "support": {
+        "source": "https://github.com/vanilophp/"
+    },
+    "authors": [
+        {
+            "name": "Kunihiko Ogawa",
+            "homepage": "https://"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "konekt/concord": "~1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2 - 7.5",
+        "orchestra/testbench": "^3.4.2",
+        "cviebrock/eloquent-sluggable": "~4.2"
+    },
+    "autoload": {
+        "psr-4": { "Vanilo\\Slideshow\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vanilo\\Slideshow\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.5.x-dev"
+        }
+    }
+}
